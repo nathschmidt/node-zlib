@@ -1,8 +1,8 @@
 build:
-	node-waf build
+	node-gyp build
 
 clean:
-	node-waf clean
+	node-gyp clean
 
 ifndef only
 test: build
